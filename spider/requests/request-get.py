@@ -50,10 +50,12 @@ import requests
 #GET请求，获取原始响应内容
 #下载音乐
 # result = requests.get('http://isure.stream.qqmusic.qq.com/C400003mAan70zUy5O.m4a?guid=8026769632&vkey=EFCB8A0846FCDDC4E506B1AECB8A45BBE33D83181137E484651504F43553955011D424FCBE388B5B9F8A1926A8E2823792CA6FC86DB04513&uin=0&fromtag=3&r=8358679870719936',stream = True).raw.read()
+# r1='https://y.qq.com/portal/player.html'
+# result = requests.get(r1,stream = True).raw.read()
 # with open('aaa.mp3','wb') as file:
 #     file.write(result)
-
-#下载图片
+#
+##下载图片
 # result = requests.get('https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3567862917,3810861202&fm=15&gp=0.jpg',stream = True).raw.read()
 # with open('aaa.jpg','wb') as file:
 #     file.write(result)
